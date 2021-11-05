@@ -10,7 +10,7 @@ docker build \
 --build-arg GRPC_RUST_VERSION="${GRPC_RUST_VERSION:-"0.8.2"}" \
 --build-arg GRPC_SWIFT_VERSION="${GRPC_SWIFT_VERSION:-"1.0.0"}" \
 --build-arg GRPC_VERSION="${GRPC_VERSION:-"1.36.4"}" \
---build-arg GRPC_WEB_VERSION="${GRPC_WEB_VERSION:-"1.2.1"}" \
+--build-arg GRPC_WEB_VERSION="${GRPC_WEB_VERSION:-"1.3.0"}" \
 --build-arg NODE_VERSION="${NODE_VERSION:-"14.17.5"}" \
 --build-arg PROTOBUF_C_VERSION="${PROTOBUF_C_VERSION:-"1.3.3"}" \
 --build-arg PROTOC_GEN_DOC_VERSION="${PROTOC_GEN_DOC_VERSION:-"1.4.1"}" \
